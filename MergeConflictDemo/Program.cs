@@ -23,6 +23,8 @@ namespace MergeConflictDemo
                             break;
                         case "two":
                             Console.WriteLine("Hi");
+                        case "test":
+                            Console.WriteLine("Hello");
                             break;
                         case "quit":
                             Console.WriteLine("Goodbye!");
