@@ -21,6 +21,9 @@ namespace MergeConflictDemo
                         case "example":
                             Console.WriteLine("This is an example of what you could do.");
                             break;
+                        case "yippee":
+                            Console.WriteLine("I know what you are...");
+                            break;
                         case "quit":
                             Console.WriteLine("Goodbye!");
                             return;
