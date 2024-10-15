@@ -9,6 +9,11 @@ namespace MergeConflictDemo
             new Program().Menu();
         }
 
+
+        public void returnNothing() {
+            Console.WriteLine("This function returns NOTHING!");
+        }
+
         public void Menu()
         {
             while (true)
@@ -17,17 +22,27 @@ namespace MergeConflictDemo
                 {
                     switch (Console.ReadLine().ToLower())
                     {
-                        // TODO : Add in your own case below this comment and some code to run
+                        // TODO : Remove all other cases and exit
                         case "example":
-                            Console.WriteLine("This is an example of what you could do.");
+                            break; // haha broke it
+                            
+                        case "anotherExample":
+                            break;
+                            //Console.WriteLine("This is anoter example of what you could do.");
+                            
+                        case "pull":
+                            //Console.WriteLine("push");
                             break;
                         case "test":
                             Console.WriteLine("Hello");
                             break;
                         case "quit":
-                            Console.WriteLine("Goodbye!");
-                            return;
+                            //Console.WriteLine("Goodbye!");
+                            break;
+                        
+                  
                     }
+                    returnNothing();
                 }
                 catch (Exception ex)
                 {
