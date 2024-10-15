@@ -36,6 +36,9 @@ namespace MergeConflictDemo
                         case "test":
                             Console.WriteLine("Hello");
                             break;
+                        case "LC":
+                            Console.WriteLine("Don Quixote");
+                            break;
                         case "quit":
                             //Console.WriteLine("Goodbye!");
                             break;
