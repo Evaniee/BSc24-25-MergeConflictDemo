@@ -33,6 +33,8 @@ namespace MergeConflictDemo
                         case "pull":
                             //Console.WriteLine("push");
                             break;
+                        case "two":
+                            Console.WriteLine("Hi");
                         case "test":
                             Console.WriteLine("Hello");
                             break;
